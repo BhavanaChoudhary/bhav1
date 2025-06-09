@@ -1,0 +1,7 @@
+ - name: Basic Example Setup
+   hosts: local
+   become: true
+   tasks:
+     - name: Example task
+       debug: 
+         msg: Hello Maven with ansible
